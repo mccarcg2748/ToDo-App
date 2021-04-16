@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "style.css">
+  <title>To Do List App</title>
+</head>
+<body>
+  <div id = "container" class = "container">
+    <div id = "box1" class = "box1">
+      <h1 id = "logo" class = "logo">Task Tracker</h1>
+      <div class = "content1"><h1>What do you need to get done?</h1>
+        <input id = "input" class = "input" placeholder = "i.e. Catch up on emails">
+        <div class = 'btn-box'>
+        <button type = "submit" id = "input-btn" class = "input-btn">Add to List</button>
+        </div>
+      </div>
+    </div>
+    <div id = "box2" class = "box2">
+      <div class="box2-1">
+        <h2 id = 'to-do' class = 'to-do'>To-Do</h2>
+        <h2 id = "completed-icon" class = "completed-icon">Completed</h2>
+      </div>
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal-content">
+      <div class = "box3">
+      <div class="close">+</div>
+      </div>
+      <div class = "box4">
+      <div class="modal-text"></div>
+      </div>
+      <div class="box5">
+      <button class = "modal-btn" id = "btn1" type="button">Mark as Completed</button>
+      <button class = "modal-btn" id = "btn2" type="button">Delete Item</button>
+      </div>
+    </div>
+
+  </div>
+  
+
+
+  <script src = "script.js"></script>
+</body>
+</html>
